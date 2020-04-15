@@ -34,10 +34,10 @@ Bonus points will be awarded for:
 
 The game is played on a grid of squares called cells, each cell is black (alive) or white (dead). When people are playing the game, they start by making some dead cells alive. Then the alive cells can make other cells alive or dead because of the rules of the game. The rules are:
 
-Any alive cell that is touching less than two alive neighbours dies.
-Any alive cell touching four or more alive neighbours dies.
-Any alive cell touching two or three alive neighbours does nothing.
-Any dead cell touching exactly three alive neighbours becomes alive.
+1. Any alive cell that is touching less than two alive neighbours dies.
+1. Any alive cell touching four or more alive neighbours dies.
+1. Any alive cell touching two or three alive neighbours does nothing.
+1. Any dead cell touching exactly three alive neighbours becomes alive.
 
 The way a player sets up the first alive cells starts the game. The first level (generation) is made by using the 4 rules. After the player is done changing the cells, they do the same thing all over again to make the next level. The game is over when all the cells are dead or all the cells are alive or the game is doing the same thing over and over. The Game of Life is Turing-complete.
 
